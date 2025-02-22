@@ -2,8 +2,8 @@
 # Wskazówka: Użyj funkcji sample() do losowania liczby oczek od 1 do 6.
 
 kostka = function(n){
-  rzuty = sample(1:6, n, replace = TRUE)
-  return(rzuty)
+  x = sample(1:6, n, replace = TRUE)
+  return(x)
 }
 
 # 2. Stwórz funkcję, która będzie tworzyć wektor o zadanej długości.
@@ -11,6 +11,6 @@ kostka = function(n){
 #  długość wektora wynosi n, a wartości w wektorze to sekwencja liczb od 1 do n.
 
 wektor = function(n){
-  w=seq(1,n)
-  return(w)
+  wektor=seq(1,n)
+  return(wektor)
 }
