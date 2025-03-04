@@ -53,6 +53,7 @@ wordcloud(frequent_terms$WORD, frequent_terms$FREQ, min.freq = 4, colors = brewe
 wordcloud(frequent_terms$WORD, frequent_terms$FREQ, min.freq = 4, colors = brewer.pal(9, "Reds"))
 wordcloud(frequent_terms$WORD, frequent_terms$FREQ, min.freq = 4, colors = brewer.pal(9, "Greens"))
 
+# W  obu przemówieniach często wystepuje tax
 # W przemowieniu z 2021 wsrod najczestszych wystepuja slowa związane z rodziną i pracą (jobs, families, care, child)
-# W przemowieniu z 2024 wystepuja glownie slowa związane z pieniędzmi i przyszłością (pay, tax, bill, milion) + zdecydowanie czesciej wystepuje slowo prezydent
+# W przemowieniu z 2024 wystepuja glownie slowa związane z pieniędzmi i przyszłością (pay, tax, bill, milion)
 # mozemy na podstawie powyzszej analizy zauwazyc zmiane priorytetow 
